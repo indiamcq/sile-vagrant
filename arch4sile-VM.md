@@ -15,12 +15,27 @@ Install the Arch Linux system.
 
 After you have rebooted into the newly installed OS
 
-Create a user
+## Create a user
 
-Use these instructions to create Yaourt installer
+* Create user
+```
+useradd sile
+```
+* Make password
+```
+passwd sile
+```
+* Swap to sile account
+```
+su sile
+```
+
+## Setup for Yaourt installer
+
+Use the instructions in part 1 to create Yaourt installer
 https://www.ostechnix.com/install-yaourt-arch-linux/
 
-now in your user account run this:
+Now in your user account run the following without sudo:
 
 ```
 yaourt -Syu install sile
