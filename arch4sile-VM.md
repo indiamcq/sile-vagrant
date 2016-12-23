@@ -14,3 +14,15 @@ Create a virtual machine for Arch linux and install the downloaded ISO file into
 Install the Arch Linux system.
 
 After you have rebooted into the newly installed OS
+
+Create a user
+
+Use these instructions to create Yaourt installer
+https://www.ostechnix.com/install-yaourt-arch-linux/
+
+now in your user account run this:
+
+```
+yaourt -Syu install sile
+```
+
